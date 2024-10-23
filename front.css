@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+background-color: rgb(227,230,230);
+}
+nav{
+    background-color: rgb(19,25,33);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+.ama{
+    width: 100px;
+    height: 35px; 
+}
+i{
+    color: white;
+}
+nav p{
+    color: white;
+}
+input{
+    width: 650px;
+    height: 35px;
+}
+.cart{
+    margin-right: 20px;
+    font-size: 25px;
+}
+.sea{
+    margin-right: 20px;
+}
+.one{
+    background-color: rgb(38,47,64);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.one p{
+    color: white;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.one img{
+    width: 200px;
+    position: relative;
+    left: 220px;
+}
+.ele{
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.new{
+    background-color: white;
+    width: 378px;
+    height: 400px;
+    z-index: 1;
+    position: relative;
+    bottom: 400px;
+    left: 50px;   
+}
+.cen p{
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 10px;
+}
+.cen{
+    display: flex;
+    justify-content: space-around;
+}
+.box1{
+    width: 379px;
+    height: 440PX;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    object-fit: fill;
+}
+.box1 h6{
+    color: rgb(95,166,178);
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 17px;
+}
+.sec{
+    margin-top: 48px;
+}
+.mob{
+    width: 95%;
+    height: 380px;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.mob img{
+    width: 190px;
+}
+.key{
+    width: 190px;
+    height: 330px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+.key p{
+   text-align: center;
+   line-height: 40px;
+   font-weight: 500;
+}
+.pro{
+    width: 100%;
+    height: auto; 
+}
+.last{
+    display: flex;
+    justify-content: space-around;
+    width: 94%;
+    height: 360px;
+    margin-left: 45px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.last img{
+    width: 250px;
+    height: 250px;
+}
+.vis{
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+.low{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(95,166,178);
+}
+a{
+    text-decoration: none;
+}
